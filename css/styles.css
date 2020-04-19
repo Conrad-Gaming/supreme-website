@@ -1,1 +1,113 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0;
+  padding: 10px;
+}
+
+.row {
+  margin: 0;
+}
+
+section .container {
+  height: 400px;
+}
+
+section .container .row {
+  height: 100%;
+}
+
+section .container .row .col-6 {
+  height: 100%;
+}
+
+.odd {
+  background: #3f88c5;
+}
+
+.even {
+  background-color: #1f6299;
+  color: white;
+}
+
+#home-map {
+  background: url("../images/control-unsplash.jpg");
+  background-size: cover;
+  image-orientation: from-image;
+  background-position: left;
+  color: white;
+}
+
+#home-map .map {
+  height: 300px;
+}
+
+#why {
+  background: url("../images/discord-background.jpg");
+  background-size: cover;
+  image-orientation: from-image;
+}
+
+#why .img-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#why .img-center img {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+#why .img-center img:hover {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
+#why p {
+  font-size: 17px;
+}
+
+@-webkit-keyframes example {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
