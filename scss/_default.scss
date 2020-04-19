@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+    padding: 10px;
+}
+
+.row {
+    margin: 0;
+}
+
+section {
+    .container {
+        height: 400px;
+
+        .row {
+            height: 100%;
+
+            .col-6 {
+                height: 100%;
+            }
+        }
+    }
+}
+
+.odd {
+    background: #3f88c5;
+}
+
+.even {
+    background-color: #1f6299;
+    color: white;
+}
+
+#home-map {
+    background: url("../images/control-unsplash.jpg");
+    background-size: cover;
+    image-orientation: from-image;
+    background-position: left;
+    color: white;
+
+    .map {
+        height: 300px;
+    }
+}
+
+#why {
+    background: url("../images/discord-background.jpg");
+    background-size: cover;
+    image-orientation: from-image;
+
+    .img-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            padding-top: 10%;
+            padding-bottom: 10%;
+            width: 100%;
+        }
+
+        img:hover {
+            animation-name: example;
+            animation-duration: 0.8s;
+            animation-iteration-count: 1;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+@keyframes example {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
