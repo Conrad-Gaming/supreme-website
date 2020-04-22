@@ -37,6 +37,12 @@ section .container .row .col-6 {
   color: white;
 }
 
+i{
+    background-color: #a681a2;
+    padding:12px;
+    border-radius: 50%;
+}
+
 #home-map {
   background: url("../images/control-unsplash.jpg");
   background-size: cover;

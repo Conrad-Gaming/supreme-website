@@ -39,6 +39,11 @@ section {
     color: white;
 }
 
+#featImg{
+    box-shadow: 10px,10px;
+    width: 45%;
+}
+
 #home-map {
     background: url("../images/control-unsplash.jpg");
     background-size: cover;
@@ -51,8 +56,13 @@ section {
     }
 }
 
+.navbar-custom { 
+    background-color: 36393f;
+    color: white; 
+} 
+
 #why {
-    background: url("../images/discord-background.jpg");
+    background: url("../images/discord-background-night.jpg");
     background-size: cover;
     image-orientation: from-image;
 
