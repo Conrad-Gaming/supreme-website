@@ -17,7 +17,7 @@
 }
 
 section .container {
-  height: 400px;
+  height: auto;
 }
 
 section .container .row {
@@ -28,13 +28,76 @@ section .container .row .col-6 {
   height: 100%;
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
 .odd {
   background: #3f88c5;
 }
 
 .even {
-  background-color: #1f6299;
+  background-color: #2C2F33;
   color: white;
+}
+
+.even .card p,
+.even h5 {
+  color: black;
+}
+
+.card {
+  padding: 5px;
+  background-color: #23272A;
+}
+
+.card .card-body .card-title {
+  color: #FFFFFF;
+}
+
+.card .card-body .card-text {
+  color: #FFFFFF;
+}
+
+.card .card-body .card-subtitle {
+  color: #99AAB5;
+}
+
+.img-round-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-round-center .img-holder {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-round-center .img-holder img {
+  width: 200px;
+  height: 185px;
+  border-radius: 50%;
+}
+
+.col-12 {
+  padding: 15px;
 }
 
 #home-map {
@@ -42,7 +105,7 @@ section .container .row .col-6 {
   background-size: cover;
   image-orientation: from-image;
   background-position: left;
-  color: white;
+  color: black;
 }
 
 #home-map .map {
@@ -50,9 +113,8 @@ section .container .row .col-6 {
 }
 
 #why {
-  background: url("../images/discord-background.jpg");
+  background: url("../images/discord-trademarks/discord-background.jpg");
   background-size: cover;
-  image-orientation: from-image;
 }
 
 #why .img-center {
@@ -86,7 +148,12 @@ section .container .row .col-6 {
 }
 
 #why p {
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#why p .colored {
+  color: #01b4eb;
 }
 
 @-webkit-keyframes example {
