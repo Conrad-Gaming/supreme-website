@@ -15,10 +15,14 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<!-- pre-loader -->
+<div class="preloader"></div>
+
+<body class="scroll-hidden">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"><img style="width: 45%;" src="images/conrad-trademarks/conrad-png.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img style="width: 45%;" src="images/conrad-trademarks/conrad-png.png"
+                    alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,40 +30,47 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-item nav-link" href="#">Roles</a>
+                    <a class="nav-item nav-link" href="#">Competition</a>
+                    <a class="nav-item nav-link" href="location.html">Location</a>
                 </div>
             </div>
         </nav>
 
-        <section class="odd" id="why">
+        <section id="why">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h1>WHY A DISCORD SERVER</h1>
-                        <p>
-                            Conrad: Gaming was created to bring together students at Conrad who enjoyed chatting and, of
-                            course, playing video games. The server has grown tremendously since its creation, and if
-                            you want to join it you may do so by <span class="colored">clicking the "Discord"
-                                Logo!</span>
-                        </p>
+                        <div class="middle-middle">
+                            <div>
+                                <h1>- WHY A DISCORD SERVER -</h1>
+                                <p>
+                                    Conrad: Gaming was created to bring together students at Conrad who enjoyed chatting
+                                    and, of
+                                    course, playing video games. The server has grown tremendously since its creation,
+                                    and
+                                    if
+                                    you want to join it you may do so by <span class="colored">interacting with the
+                                        widget!</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 text-center img-center">
-                        <a href="https://discord.gg/GTmJcmR" target="_blank">
-                            <img src="images/discord-trademarks/Discord-Logo+Wordmark-Black.png" alt="">
-                        </a>
+                        <iframe src="https://discordapp.com/widget?id=631156990382702634&theme=dark" width="80%"
+                            height="400" allowtransparency="true" frameborder="0">
+                        </iframe>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- The Team -->
+        <!-- CARDS SECTION -->
         <section class="row even">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="text-center">THE TEAM</h1>
+                        <h1 class="text-center">- GLOBAL MANAGERS -</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dignissimos dicta
                             delectus
                             vero quam nulla voluptate expedita dolor atque. Quam totam aperiam, cum ab fuga facere
@@ -78,7 +89,8 @@
                                 <h5 class="card-title">Jewel</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Global Director</h6>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                    lead-in to additional content. This content is a little bit longer.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -121,12 +133,26 @@
                     <!-- End of Card -->
 
                     <div class="col-12 text-center">
-                        <button type="button" class="btn btn-primary">SEE MORE</button>
+                        <button type="button" class="btn btn-primary">SEE MORE ROLES</button>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End of The Team -->
+        <!-- End of Card Section -->
+
+        <!-- Discord Widget.io -->
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h1 class="text-center">- DISCORD SERVER -</h1>
+                </div>
+                <div class="middle-middle">
+                    <widgetbot server="631156990382702634" channel="631156991007522847" width="70%" height="600"
+                        shard="https://e.widgetbot.io">
+                    </widgetbot>
+                </div>
+            </div>
+        </section>
 
     </div>
 
@@ -170,6 +196,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
 </body>
