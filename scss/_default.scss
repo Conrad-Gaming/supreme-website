@@ -129,7 +129,8 @@ h1 {
 }
 
 #why {
-
+    hyphens: auto;
+    
     .img-center {
         display: flex;
         align-items: center;
