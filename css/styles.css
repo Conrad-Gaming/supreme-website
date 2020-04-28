@@ -4,6 +4,12 @@
 
 .scroll-hidden {
   overflow: hidden;
+  display: none;
+}
+
+.carousel {
+  width: 500px;
+  height: 100%;
 }
 
 .preloader {
@@ -64,7 +70,8 @@ h1 {
 }
 
 .card {
-  padding: 5px;
+  padding: 8px;
+  height: 350px;
   background-color: #23272A;
 }
 

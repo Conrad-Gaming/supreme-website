@@ -5,6 +5,13 @@
 // all-scroll hidden
 .scroll-hidden{
     overflow: hidden;
+    display: none;
+}
+
+//carousal
+.carousel{
+    width:500px;
+    height: 100%;
 }
 
 // Pre-loader
@@ -68,7 +75,8 @@ h1 {
 }
 
 .card {
-    padding: 5px;
+    padding: 8px;
+    height: 350px;
     background-color: #23272A;
 
     .card-body .card-title {
