@@ -15,106 +15,169 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-    <div class="container-fluid">
+<!-- pre-loader -->
+<div class="preloader"></div>
+
+<body class="scroll-hidden">
+    <div class="container-fluid scroll-hidden">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img style="width: 45%;" src="images/conrad-trademarks/conrad-png.png"
+                    alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="roles.html">Roles</a>
+                    <a class="nav-item nav-link" href="leadboards.html">Competition</a>
+                    <a class="nav-item nav-link" href="location.html">Location</a>
                 </div>
             </div>
         </nav>
 
-        <section class="odd" id="why">
+        <section id="why">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
-                        <h1>Why create a Discord Server?</h1>
-                        <p>
-                            Conrad: Gaming was created to bring together students at Conrad who enjoyed chatting and, of
-                            course, playing video games. The server has grown tremendously since its creation, and if
-                            you want to join it you may do so by clicking the link on this page!
-                        </p>
+                    <div class="col-12 col-md-6">
+                        <div class="middle-middle">
+                            <div>
+                                <h1 class="text-center">- WHY A DISCORD SERVER -</h1>
+                                <p>
+                                    Conrad: Gaming was created to bring together students at Conrad who enjoyed chatting
+                                    and, of course, playing video games. The server has grown tremendously since its creation,
+                                    if you want to join it you may do so by 
+                                    <span class="colored">interacting with the widget!</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 text-center img-center">
-                        <a href="https://discord.gg/GTmJcmR" target="_blank">
-                            <img src="images/Discord-Logo+Wordmark-Black.png" alt="">
-                        </a>
+                    <div class="col-12 col-md-6 text-center img-center">
+                        <iframe src="https://discordapp.com/widget?id=631156990382702634&theme=dark" width="80%"
+                            height="400" allowtransparency="true" frameborder="0">
+                        </iframe>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- CARDS SECTION -->
         <section class="row even">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
-                        <h1>Hello</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dignissimos dicta
-                            delectus
-                            vero quam nulla voluptate expedita dolor atque. Quam totam aperiam, cum ab fuga facere
-                            asperiores sdistinctio earum dolorum!</p>
+                    <div class="col-12">
+                        <h1 class="text-center">- GLOBAL MANAGERS -</h1>
                     </div>
-                    <div class="col-6">
 
+                    <!-- Card -->
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <div class="img-round-center">
+                                <div class="img-holder">
+                                    <img src="images/team-imgs/Jewel.png" class="card-img-top" alt="">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Jewel</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Global Director</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Card -->
+
+                    <!-- Card -->
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <div class="img-round-center">
+                                <div class="img-holder">
+                                    <img src="images/team-imgs/Neo.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Neo-aithnichte</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Operations Manager</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Card -->
+
+                    <!-- Card -->
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <div class="img-round-center">
+                                <div class="img-holder">
+                                    <img src="images/team-imgs/mxngo.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Mxngo</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Product Manager</h6>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Card -->
+
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn-primary">SEE MORE ROLES</button>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- End of Card Section -->
 
-        <section id="home-map">
-            <div class="container text-center">
-                <h1>OUR LOCATION</h1>
-                <div class="map">
-                    <iframe width="50%" height="100%" frameborder="0" style="border:0"
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJpQWXW_SfToYRobC79F00DoM&key=AIzaSyBqllJV5AJ36PNUXVFgoHE7p2L9PnxblA0"
-                        allowfullscreen>
-                    </iframe>
+        <!-- Discord Widget.io -->
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h1 class="text-center">- DISCORD SERVER -</h1>
+                </div>
+                <div class="middle-middle">
+                    <widgetbot server="631156990382702634" channel="631156991007522847" width="70%" height="600"
+                        shard="https://e.widgetbot.io">
+                    </widgetbot>
                 </div>
             </div>
         </section>
 
     </div>
-    <!-- <div class="row">
-                <div class="col-12 col-md-4 col-lg-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>Server Owner</h2>
-                        </div>
-                        <div class="col-6">
-                            <img src="https://i.redd.it/x3vk17k8mak21.jpg" width="100%" alt="">
-                        </div>
-                        <div class="col-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint vitae expedita ex ab
-                                enim
-                                alias labore, at neque delectus placeat minima modi harum unde! Sed modi officiis
-                                nostrum
-                                totam fugiat quia? Libero, soluta enim? Voluptatibus eum obcaecati, dolore debitis omnis
-                                ad
-                                harum assumenda asperiores ratione quaerat dolores nisi eos?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6">
-                <div style="width: 100%; height: 300px;">
-                    <iframe width="100%" height="450" frameborder="0" style="border:0"
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJpQWXW_SfToYRobC79F00DoM&key=AIzaSyBqllJV5AJ36PNUXVFgoHE7p2L9PnxblA0"
-                        allowfullscreen></iframe>
-                </div> -->
 
-    <footer>
+    <footer class="footer font-small footer-dark pt-4" style="background-color: #36393f;">
+        <div class="container">
 
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                        <i class="fab fa-facebook-f"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <i class="fab fa-twitter"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                        <i class="fab fa-linkedin-in"> </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="color: 
+                #a681a2;">© 2020 Copyright:
+            Da Bois
+        </div>
     </footer>
-
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -126,6 +189,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
 </body>

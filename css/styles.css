@@ -2,9 +2,35 @@
   margin: 0;
 }
 
+.scroll-hidden {
+  overflow: hidden;
+  display: none;
+}
+
+.carousel {
+  width: 500px;
+  height: 100%;
+}
+
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  overflow: hidden;
+  background-image: url("../images/pre-loader.png");
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: center;
+}
+
 .container-fluid {
   margin: 0;
   padding: 0;
+  background: url("../images/backgrounds/discord-background-day.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .container {
@@ -17,7 +43,7 @@
 }
 
 section .container {
-  height: 400px;
+  height: auto;
 }
 
 section .container .row {
@@ -28,31 +54,105 @@ section .container .row .col-6 {
   height: 100%;
 }
 
-.odd {
-  background: #3f88c5;
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
 }
 
 .even {
-  background-color: #1f6299;
+  background-color: #2C2F33;
   color: white;
 }
 
+.even .card p,
+.even h5 {
+  color: black;
+}
+
+.card {
+  padding: 8px;
+  height: 350px;
+  background-color: #23272A;
+}
+
+.card .card-body .card-title {
+  color: #FFFFFF;
+}
+
+.card .card-body .card-text {
+  color: #FFFFFF;
+}
+
+.card .card-body .card-subtitle {
+  color: #99AAB5;
+}
+
+.img-round-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-round-center .img-holder {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-round-center .img-holder img {
+  width: 200px;
+  height: 185px;
+  border-radius: 50%;
+}
+
+.col-12 {
+  padding: 15px;
+}
+
 #home-map {
-  background: url("../images/control-unsplash.jpg");
+  background: url("../images/backgrounds/dallas-skyline-day.jpg");
   background-size: cover;
   image-orientation: from-image;
   background-position: left;
-  color: white;
+  color: black;
 }
 
 #home-map .map {
   height: 300px;
 }
 
+.middle-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
 #why {
-  background: url("../images/discord-background.jpg");
-  background-size: cover;
-  image-orientation: from-image;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 #why .img-center {
@@ -86,7 +186,12 @@ section .container .row .col-6 {
 }
 
 #why p {
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#why p .colored {
+  color: #01b4eb;
 }
 
 @-webkit-keyframes example {
