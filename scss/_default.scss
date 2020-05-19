@@ -3,14 +3,14 @@
 }
 
 // all-scroll hidden
-.scroll-hidden{
+.scroll-hidden {
     overflow: hidden;
     display: none;
 }
 
 //carousal
-.carousel{
-    width:500px;
+.carousel {
+    width: 500px;
     height: 100%;
 }
 
@@ -116,18 +116,6 @@ h1 {
     padding: 15px;
 }
 
-#home-map {
-    background: url("../images/backgrounds/dallas-skyline-day.jpg");
-    background-size: cover;
-    image-orientation: from-image;
-    background-position: left;
-    color: black;
-
-    .map {
-        height: 300px;
-    }
-}
-
 .middle-middle {
     display: flex;
     align-items: center;
@@ -138,7 +126,7 @@ h1 {
 
 #why {
     hyphens: auto;
-    
+
     .img-center {
         display: flex;
         align-items: center;
@@ -166,6 +154,17 @@ h1 {
         .colored {
             color: rgb(1, 180, 235);
         }
+    }
+}
+
+#home-map {
+    background: url("../images/backgrounds/dallas-skyline-day.jpg");
+    background-size: cover;
+    image-orientation: from-image;
+    background-position: left;
+    color: white;
+    .map {
+        height: 500px;
     }
 }
 

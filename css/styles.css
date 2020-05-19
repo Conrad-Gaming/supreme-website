@@ -123,18 +123,6 @@ h1 {
   padding: 15px;
 }
 
-#home-map {
-  background: url("../images/backgrounds/dallas-skyline-day.jpg");
-  background-size: cover;
-  image-orientation: from-image;
-  background-position: left;
-  color: black;
-}
-
-#home-map .map {
-  height: 300px;
-}
-
 .middle-middle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,6 +180,18 @@ h1 {
 
 #why p .colored {
   color: #01b4eb;
+}
+
+#home-map {
+  background: url("../images/backgrounds/dallas-skyline-day.jpg");
+  background-size: cover;
+  image-orientation: from-image;
+  background-position: left;
+  color: white;
+}
+
+#home-map .map {
+  height: 500px;
 }
 
 @-webkit-keyframes example {
