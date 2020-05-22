@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .scroll-hidden {
@@ -10,6 +11,26 @@
 .carousel {
   width: 500px;
   height: 100%;
+}
+
+.logo-name {
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.section-title {
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 24px;
+  text-shadow: white 1px 1px;
+}
+
+.nav-item a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
 }
 
 .preloader {
@@ -123,18 +144,6 @@ h1 {
   padding: 15px;
 }
 
-#home-map {
-  background: url("../images/backgrounds/dallas-skyline-day.jpg");
-  background-size: cover;
-  image-orientation: from-image;
-  background-position: left;
-  color: black;
-}
-
-#home-map .map {
-  height: 300px;
-}
-
 .middle-middle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,11 +196,24 @@ h1 {
 
 #why p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
+  text-shadow: black 0px 1px;
 }
 
 #why p .colored {
   color: #01b4eb;
+}
+
+#home-map {
+  background: url("../images/backgrounds/dallas-skyline-day.jpg");
+  background-size: cover;
+  image-orientation: from-image;
+  background-position: left;
+  color: white;
+}
+
+#home-map .map {
+  height: 500px;
 }
 
 @-webkit-keyframes example {
