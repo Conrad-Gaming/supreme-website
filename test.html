@@ -5,51 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <!-- Styles Sheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid scroll-hidden">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <a class="navbar-brand d-md-none" href="index.html">
+                <img src="images/conrad-trademarks/conrad.png" width="50" height="50" class="d-inline-block align-top"
+                    alt="">
+            </a>
 
+            <a class="navbar-brand d-none d-md-block" href="index.html">
+                <span class="navbar-brand mb-0 logo-name">Conrad Gaming</span>
+            </a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="row">
-            <form id="test-form">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-1 active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="roles.html">Roles</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="leadboards.html">Leadboards</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="location.html">Location</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                <div>
-                    <label>Field 1</label>
-                    <input type="text" name="form_field_1" placeholder="Field 1" />
+        <section class="odd">
+            <div class="container">
+                <div class="col-12">
+                    <h1 class="text-center section-title">- DISCORD SERVER -</h1>
                 </div>
+                <div class="col-12">
+                    <form class="gform" method="POST" data-email="fportilloCGCA21@gmail.com"
+                        action="https://script.google.com/macros/s/AKfycbwXS5vWFWRm_OUk84K30wsDAS-Hmphs7clFH6b8lh--LGm33HAk/exec">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">First name</label>
+                                <input type="name" name="first" class="form-control" placeholder="John">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Last name</label>
+                                <input type="name" name="last" class="form-control" placeholder="John">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" name="city" class="form-control" id="inputCity" placeholder="City">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <input type="text" name="state" class="form-control" placeholder="State"></input>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" name="zip" class="form-control" id="inputZip" placeholder="Zip">
+                            </div>
+                        </div>
 
-                <div>
-                    <label>Field 2</label>
-                    <input type="text" name="form_field_2" placeholder="Field 2" />
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Leave your comment here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
                 </div>
-
-                <div>
-                    <label>Field 3</label>
-                    <input type="text" name="form_field_3" placeholder="Field 3" />
-                </div>
-
-                <div>
-                    <label>Field 4</label>
-                    <input type="text" name="form_field_4" placeholder="Field 4" />
-                </div>
-
-                <div>
-                    <button type="submit" id="submit-form">Submit</button>
-                </div>
-
-            </form>
-        </div>
-
-
-
+            </div>
     </div>
 
 
@@ -58,6 +110,7 @@
 
 
     <!-- Scripts -->
+    <!-- boostrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -67,11 +120,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+
+    <!-- widgetbot -->
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-    <script src="jquery.min.js"></script>
-    <script src="jquery.serialize-object.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+        new Crate({
+            server: '631156990382702634', // Fernando's Little Server
+            channel: '631156991007522847' // #general
+        })
+    </script>
+
+    <!-- Jquery/ Our Script -->
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+    <script src="js/jquery-3.4.1.min.js">
+    </script>
     <script src="js/script.js"></script>
+
 
 </body>
 

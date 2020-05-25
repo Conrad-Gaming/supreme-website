@@ -12,10 +12,11 @@ $(function () {
     });
 });
 
+//when document is ready
 $(document).ready(() => {
 
     //set background and change text color
-    function setBackground() {
+    $(function () {
         var today = new Date()
         var date = new Date().toDateString()
         var h = today.getHours()
@@ -28,24 +29,7 @@ $(document).ready(() => {
             $(".container-fluid").css("color", "white")
             console.log("Night")
         }
-    }
-
-    setBackground()
+    })
 })
 
-//form test
-var $form = $('form#test-form'),
-    url = 'https: //script.google.com/macros/s/AKfycbxtlV9G_sLx2a0A7EXltQYW7lzSFMLXmKyMdjyKyRu5jtOTaHZ2/exec'
 
-$('#submit-form').on('click', function (e) {
-    e.preventDefault();
-    var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: $form.serializeObject()
-    }).success(
-        // do something
-
-    );
-})
