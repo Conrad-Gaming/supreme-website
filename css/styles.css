@@ -238,7 +238,7 @@ html {
 
 .bgimg {
   /* Background image */
-  background-image: url("/images/backgrounds/page-not-found.svg");
+  background-image: url("../images/backgrounds/page-not-found.png");
   /* Full-screen */
   height: 100%;
   /* Center the background image */
