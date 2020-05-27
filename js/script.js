@@ -61,4 +61,13 @@ $(document).ready(() => {
         }
     }, 1000);
 
+
+    //send notification
+    $('#button').click(function(){
+        $('.myAlert').show('fade');
+
+        setTimeout(function(){
+            $('.myAlert').hide('fade');
+        },10000)
+    });
 })
