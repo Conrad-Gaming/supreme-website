@@ -54,11 +54,27 @@
             </div>
         </nav>
 
+
+
         <section class="odd">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <h1 class="text-center section-title">- CONTACT US -</h1>
+                        <!-- alert -->
+                        <div class="myAlert alert alert-success alert-dismissible collapse" role="alert">
+                            <strong>Success!</strong> We have recieved your message. Thank you!
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="myAlert alert alert-info alert-dismissible collapse" role="alert">
+                            <strong>Info!</strong> To submit another message refresh the page!
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <h3 class="text-center">- SEND US A MESSAGE -</h3>
@@ -102,7 +118,7 @@
                             </div>
 
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" id="button" class="btn btn-primary">Submit</button>
                             </div>
                         </form>
                     </div>

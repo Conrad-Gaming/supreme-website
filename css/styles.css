@@ -267,8 +267,9 @@ html {
 /* Position text in the top-left corner */
 .topleft {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 16px;
+  text-align: center;
 }
 
 /* Position text in the bottom-left corner */
