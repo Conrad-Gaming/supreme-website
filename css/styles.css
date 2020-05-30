@@ -304,10 +304,7 @@ hr {
   position: sticky;
 }
 
-#submited-alert embed {
+#submited-alert img {
   width: 80%;
-  position: relative;
-  top: 50%;
-  left: 15%;
 }
 /*# sourceMappingURL=styles.css.map */
