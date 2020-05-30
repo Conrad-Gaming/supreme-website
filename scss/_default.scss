@@ -217,7 +217,7 @@ html {
     /* Center the background image */
     background-position: center;
     /* Scale and zoom in the image */
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
     position: relative;
