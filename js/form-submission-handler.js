@@ -100,9 +100,20 @@
     document.addEventListener("DOMContentLoaded", loaded, false);
 
     function disableAllButtons(form) {
+
         var buttons = form.querySelectorAll("button");
         for (var i = 0; i < buttons.length; i++) {
             buttons[i].disabled = true;
         }
+
+        //send notification
+        $('#submited-alert').show('fade');
+
+        $('.myAlert').show('fade');
+        setTimeout(function () {
+            $('.myAlert').hide('fade');
+        }, 10000)
+
+        $(form).hide('fade');
     }
 })();

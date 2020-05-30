@@ -3,6 +3,11 @@
     font-family: 'Roboto Slab', serif;
 }
 
+//body for decor
+body{
+    background-color: #36393f;
+}
+
 // all-scroll hidden
 .scroll-hidden {
     overflow: hidden;
@@ -222,18 +227,18 @@ html {
     /* Set the font-size to 25 pixels */
     font-size: 25px;
 
-    p{
+    p {
         color: rgb(1, 180, 235);
         text-shadow: black 1px 1px;
     }
 }
 
-.not-found-page{
+.not-found-page {
     font-family: 'Press Start 2P', cursive;
 }
 
 /* Position text in the top-left corner */
-.topleft{
+.topleft {
     position: absolute;
     top: 10px;
     left: 16px;
@@ -262,10 +267,17 @@ hr {
     width: 40%;
 }
 
-
 // my alert
-.alert{
+.alert {
     position: sticky;
 }
 
-
+// submitted alert
+#submited-alert {
+    img {
+        width: 80%;
+        position: relative;
+        top: 50%;
+        left: 15%;
+    }
+}
